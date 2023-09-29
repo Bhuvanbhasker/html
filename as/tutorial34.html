@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    <style>
+        .container {
+            display: flex;
+        }
+        
+        .card {
+            padding: 23px 12px;
+            /*border: 2px solid red;
+            */
+            margin: 23px 12px;
+            background-color: blue;
+            /* box shadow: offset-x offset-y color;*/
+            /*box-shadow: offset-x offset-y blur-radius color;*/
+            /*box-shadow: offset-x offset-y blur-radius spread-radius color;*/
+            /*box-shadow: 10px 23px green;*/
+            /* box-shadow: -10px -23px red;*/
+            box-shadow: 7px 5px 18px 34px violet;
+        }
+        
+        .card h2 {
+            text-shadow: 3px 4px red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>this is c++ course</h2>
+            <p> i hav started c++ course which does not mean that we will stop this course. we will cotinue this course to completion.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae, similique ab alias molestiae in quae dicta dignissimos delectus
+                nihil quaerat, fugiat nemo officiis a corporis beatae quis, error officia deleniti!
+            </p>
+        </div>
+        <div class="card" id="card-2">
+            <h2>this is html course</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A voluptate, harum numquam soluta mollitia voluptatibus nobis maxime ratione expedita assumenda adipisci deleniti eligendi ducimus dolore porro ad? Eveniet, facilis atque!</p>
+        </div>
+        <div class="card" id="card-3">
+            <h2>card3</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit in assumenda, deleniti sunt vitae perspiciatis exercitationem animi vel fuga enim voluptate maxime cum molestiae qui sed ullam expedita mollitia asperiores?</p>
+        </div>
+    </div>
+</body>
+
+</html>
